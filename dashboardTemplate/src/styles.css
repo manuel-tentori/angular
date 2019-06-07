@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+p{
+    font-size: 12px !important;
+}
+table{
+    font-size: 12px !important;
+}
+
+.card .numbers {
+    font-size: 12px !important;
+}
+.sidebar .sidebar-wrapper .nav p{
+    font-size: 12px !important;
+}
+.buttons-with-margin .btn {
+    margin-bottom: 5px !important;
+    font-size: 12px !important;
+    padding: 4px !important;
+}
+.form-control{
+    padding: 0% !important;
+    height: 30px !important;
+}
+.control-label{
+    font-size: 12px !important;
+}
+
+label{
+    font-size: 12px !important;
+}
+.help-block{
+font-size: 12px !important;
+}
+td{
+    padding: 1px !important;
+}
+.pagination > li > a, .pagination > li > span{
+    font-size: 12px !important;
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2.2em;
+}
+h3{
+    font-size: 1.9em;
+}
+h4{
+    font-size: 1.5em;
+}
+h5{
+    font-size: 1.2em;
+}
+h6{
+    font-size: 0.9em;
+}
+
+.btn-group>.btn:first-child {
+    padding: 5px;
+    padding-left: 10px;
+}
+.col-md-12 {
+    width: 100%;
+    padding: 0;
+}
