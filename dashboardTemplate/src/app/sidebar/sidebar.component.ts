@@ -19,7 +19,8 @@ export interface ChildrenItems {
 }
 
 //Menu Items
-export const ROUTES: RouteInfo[] = [{
+export const ROUTES: RouteInfo[] = [
+   /* {
         path: '/dashboard',
         title: 'Dashboard',
         type: 'sub',
@@ -96,6 +97,26 @@ export const ROUTES: RouteInfo[] = [{
             {path: 'register', title: 'Register Page', ab:'RP'},
             {path: 'lock', title: 'Lock Screen Page', ab:'LSP'}
         ]
+    },*/{
+        path: '/anagraficasocieta',
+        title: 'Anagrafica',
+        type: 'link',
+        icontype: ''
+    },{
+        path: '/anagraficamodellicontrollo',
+        title: 'Modelli di Controllo',
+        type: 'link',
+        icontype: ''
+    },{
+        path: '/classimodelli',
+        title: 'Anagrafica Classi modelli controllo',
+        type: 'link',
+        icontype: ''
+    },{
+        path: '/nuovomodello',
+        title: 'Nuovo Modello',
+        type: 'link',
+        icontype: ''
     }
 ];
 

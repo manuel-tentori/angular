@@ -5486,7 +5486,7 @@ strong {
 }
 
 .sidebar {
-  width: 260px;
+  width: 300px;
   display: block;
   position: fixed;
   top: 0;
@@ -5566,10 +5566,10 @@ strong {
 }
 .sidebar .sidebar-wrapper {
   position: relative;
-  height: calc(100% - 75px);
+  height: calc(100% - 75 px);
   z-index: 4;
   box-shadow: inset -1px 0px 0px 0px #cfcfca;
-  width: 260px;
+  width: 300px;
 }
 .sidebar .sidebar-wrapper .dropdown.open .dropdown-backdrop {
   display: none !important;
@@ -7669,7 +7669,7 @@ form label.radio, form label.checkbox {
   float: left;
 }
 .navbar .navbar-minimize .btn {
-  margin: 18px 3px;
+  margin: 18px 33px;
 }
 .navbar .navbar-minimize .ti-more-alt {
   display: inline-block;

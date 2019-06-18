@@ -5,12 +5,12 @@ import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
 
 export const AppRoutes: Routes = [{
         path: '',
-        redirectTo: 'dashboard/overview',
+        redirectTo: 'anagraficasocieta',
         pathMatch: 'full',
     },{
         path: '',
         component: AdminLayoutComponent,
-        children: [{
+        children: [/*{
             path: 'dashboard',
             loadChildren: './dashboard/dashboard.module#DashboardModule'
         },{
@@ -37,7 +37,20 @@ export const AppRoutes: Routes = [{
         },{
             path: '',
             loadChildren: './timeline/timeline.module#TimelineModule'
-        }]
+        },*/{
+            path: 'anagraficasocieta',
+            loadChildren: './anagrafica-societa/anagrafica-societa.module#AnagraficaSocietaModule'
+        },{
+            path: 'anagraficamodellicontrollo',
+            loadChildren: './anagrafica-modelli-controllo/anagrafica-modelli-controllo.module#AnagraficaModelliControlloModule'
+        },{
+            path: 'classimodelli',
+            loadChildren: './classi-modelli/classi-modelli.module#ClassiModelliModule'
+        },{
+            path: 'nuovomodello',
+            loadChildren: './nuovo-modello/nuovo-modello.module#NuovoModelloModule'
+        }
+        ]
         },{
             path: '',
             component: AuthLayoutComponent,

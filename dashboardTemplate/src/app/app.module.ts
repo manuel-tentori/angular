@@ -29,7 +29,7 @@ import { AppRoutes } from './app.routing';
     declarations: [
         AppComponent,
         AdminLayoutComponent,
-        AuthLayoutComponent
+        AuthLayoutComponent,
     ],
     bootstrap:    [ AppComponent ]
 })

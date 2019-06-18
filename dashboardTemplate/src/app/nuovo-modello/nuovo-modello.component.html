@@ -1,0 +1,36 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-content">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <select class="selectpicker" title="Seleziona Società" data-size="7">
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <select class="selectpicker" title="Seleziona il Modello" data-size="7">
+                        </select>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="file" style="display: inline-block;" (change)="incomingfile($event)"
+                            placeholder="Upload file" accept=".xlsx">
+                        <button type="button" class="btn btn-info" (click)="Upload()">Upload</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn btn-wd">CREA MODELLO</button>
+                    </div>
+                </div>
+
+                <div class="row" *ngIf="t">
+                    <div class="col-md-12">
+                        {{modelClient[0].a}}<input type="checkbox">
+                        {{modelClient[0].b}}<input type="checkbox">
+                        {{modelClient[0].c}}<input type="checkbox">
+                        {{modelClient[0].d}}<input type="checkbox">
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- end card -->
+    </div>
+</div>
