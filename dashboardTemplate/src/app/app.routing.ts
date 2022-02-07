@@ -2,10 +2,11 @@ import { Routes } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin/admin-layout.component';
 import { AuthLayoutComponent } from './layouts/auth/auth-layout.component';
+import { ProgettiComponent } from './progetti/progetti.component';
 
 export const AppRoutes: Routes = [{
         path: '',
-        redirectTo: 'anagraficasocieta',
+        redirectTo: 'progetti',
         pathMatch: 'full',
     },{
         path: '',
@@ -49,6 +50,10 @@ export const AppRoutes: Routes = [{
         },{
             path: 'nuovomodello',
             loadChildren: './nuovo-modello/nuovo-modello.module#NuovoModelloModule'
+        },
+        {
+            path: 'progetti',
+            component: ProgettiComponent
         }
         ]
         },{

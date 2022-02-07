@@ -1,0 +1,27 @@
+.over{
+    z-index: 999999!important;
+    width:100% !important;
+    height:200;
+    background: rgba(0,0,0,0.3);
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+.cooplatModal {
+    width: 60%;
+    height: 15%;
+    top: 6%;
+    left: 26%;
+}
+
+.overButton{
+    z-index: 999999!important;
+    width: 50px;
+    background: rgba(0,0,0,0.3);
+    position:absolute;
+    bottom:5%px;
+    left:5%px;
+}

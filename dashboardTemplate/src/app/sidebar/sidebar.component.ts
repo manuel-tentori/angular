@@ -97,7 +97,7 @@ export const ROUTES: RouteInfo[] = [
             {path: 'register', title: 'Register Page', ab:'RP'},
             {path: 'lock', title: 'Lock Screen Page', ab:'LSP'}
         ]
-    },*/{
+    },{
         path: '/anagraficasocieta',
         title: 'Anagrafica',
         type: 'link',
@@ -115,6 +115,12 @@ export const ROUTES: RouteInfo[] = [
     },{
         path: '/nuovomodello',
         title: 'Nuovo Modello',
+        type: 'link',
+        icontype: ''
+    },*/
+    {
+        path: '/progetti',
+        title: 'Progetti',
         type: 'link',
         icontype: ''
     }
